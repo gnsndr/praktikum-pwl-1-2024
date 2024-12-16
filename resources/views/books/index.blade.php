@@ -11,10 +11,9 @@
                 <div class="p-6 text-gray-900 dark:text-gray-100">
 
                     <x-primary-button tag="a" href="{{ route('book.create') }}">Tambah Data Buku</x-primary-button>
-                    <x-primary-button tag="a" href="{{ route('book.print') }}">Print PDF</x-primary-button>
+                    <x-primary-button tag="a" href="{{ route('book.print') }}">Cetak PDF</x-primary-button>
                     <x-primary-button tag="a" href="{{ route('book.export') }}" target="_blank">Export Excel</x-primary-button>
-                    <x-primary-button tag="a" href="{{ route('book.import') }}" target="_blank">Import
-                        Excel</x-primary-button>
+                    <x-primary-button tag="a" href="{{ route('book.import') }}" target="_blank">Import Excel</x-primary-button>
 
                     <x-table>
                         <x-slot name="header">
